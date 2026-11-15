@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Элеонора — репетитор по физике и математике для 6–10 классов.">
+  <title>Элеонора — физика и математика</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html"><span class="logo-mark">E</span><span><b>Элеонора</b><small>PHYSICS & MATH</small></span></a>
+      <nav class="nav">
+        <a class="nav-link active" href="index.html">Главная</a>
+        <a class="nav-link" href="#subjects">Предметы</a>
+        <a class="nav-link" href="about.html">О репетиторе</a>
+        <a class="nav-link" href="dashboard.html">Кабинет</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Переключить тему">☾</button>
+        <a class="btn btn-primary btn-sm" href="login.html">Войти</a>
+      </div>
+      <button class="burger" id="burger" aria-label="Открыть меню"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-grid container">
+        <div class="hero-content">
+          <div class="eyebrow"><i></i> ОБРАЗОВАТЕЛЬНАЯ ПЛАТФОРМА · 6–10 КЛАСС</div>
+          <h1>Понимать сложное <span>легко.</span></h1>
+          <p class="hero-lead">Физика, алгебра и геометрия в понятной системе: теория, формулы, задачи и личный прогресс ученика.</p>
+          <div class="hero-actions">
+            <a href="login.html" class="btn btn-primary btn-lg">Войти как ученик <b>→</b></a>
+            <a href="about.html" class="btn btn-outline btn-lg">О репетиторе</a>
+          </div>
+          <div class="trust-row"><span>✓ Понятные объяснения</span><span>✓ Практика</span><span>✓ Контроль прогресса</span></div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="glow glow-a"></div><div class="glow glow-b"></div>
+          <div class="teacher-card">
+            <div class="teacher-head">
+              <div class="portrait">Э</div>
+              <div><small>ВАШ РЕПЕТИТОР</small><h2>Элеонора</h2><p>Физика · Алгебра · Геометрия</p></div>
+            </div>
+            <div class="divider"></div>
+            <div class="mini-stats">
+              <div><b>6–10</b><span>классы</span></div>
+              <div><b>3</b><span>предмета</span></div>
+              <div><b>1:1</b><span>подход</span></div>
+            </div>
+          </div>
+          <div class="floating-card formula"><strong>ƒ(x)</strong><span>формулы без страха</span></div>
+          <div class="floating-card progress"><strong>✓</strong><div><span>Прогресс ученика</span><div class="progress-line"><i></i></div><small>76% темы изучено</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stats-section">
+      <div class="container stats-card">
+        <div><b>6–10</b><span>классы</span></div><i></i>
+        <div><b>3</b><span>предмета</span></div><i></i>
+        <div><b>100+</b><span>учебных тем</span></div><i></i>
+        <div><b>24/7</b><span>доступ к материалам</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head center">
+          <div class="eyebrow">ПОЧЕМУ ЭТА ПЛАТФОРМА</div>
+          <h2>Всё необходимое — <span>в одном месте</span></h2>
+          <p>Учимся по понятной последовательности: понять тему → разобрать пример → решить задачу → проверить результат.</p>
+        </div>
+        <div class="cards three">
+          <article class="card"><div class="card-icon purple">01</div><h3>Понятная теория</h3><p>Определения, формулы и объяснения собраны по классам и предметам.</p><a href="dashboard.html">Открыть кабинет →</a></article>
+          <article class="card"><div class="card-icon blue">02</div><h3>Практические задачи</h3><p>Закрепление материала через задачи разного уровня сложности.</p><a href="login.html">Начать обучение →</a></article>
+          <article class="card"><div class="card-icon gradient">03</div><h3>Личный прогресс</h3><p>Ученик отмечает изученные темы и видит состояние домашних заданий.</p><a href="dashboard.html">Посмотреть прогресс →</a></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section subjects-section" id="subjects">
+      <div class="container">
+        <div class="section-head"><div><div class="eyebrow">ПРЕДМЕТЫ</div><h2>Три направления <span>для уверенных знаний</span></h2></div><a class="btn btn-outline" href="login.html">Войти в кабинет →</a></div>
+        <div class="subject-grid">
+          <a href="theory.html?subject=physics" class="subject-card physics"><div class="subject-top"><small>01 · 6–10 КЛАСС</small><b>F = ma</b></div><div><h3>Физика</h3><p>Механика, давление, энергия, электричество, свет, колебания и молекулярная физика.</p></div><span class="circle-arrow">→</span></a>
+          <a href="theory.html?subject=algebra" class="subject-card algebra"><div class="subject-top"><small>02 · 6–10 КЛАСС</small><b>x² + bx + c</b></div><div><h3>Алгебра</h3><p>Уравнения, функции, прогрессии, тригонометрия, логарифмы и производная.</p></div><span class="circle-arrow">→</span></a>
+          <a href="theory.html?subject=geometry" class="subject-card geometry"><div class="subject-top"><small>03 · 6–10 КЛАСС</small><b>a² + b² = c²</b></div><div><h3>Геометрия</h3><p>Треугольники, площади, подобие, векторы, окружность и стереометрия.</p></div><span class="circle-arrow">→</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container process">
+        <div class="section-head center"><div class="eyebrow">КАК ЭТО РАБОТАЕТ</div><h2>Простой путь от темы <span>к результату</span></h2></div>
+        <div class="steps">
+          <article><b>01</b><h3>Войти</h3><p>Используй свой аккаунт ученика.</p></article>
+          <article><b>02</b><h3>Изучить</h3><p>Разбери теорию и формулы.</p></article>
+          <article><b>03</b><h3>Решить</h3><p>Закрепи знания практикой.</p></article>
+          <article><b>04</b><h3>Отследить</h3><p>Смотри свой прогресс.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container cta"><div><div class="eyebrow light">ГОТОВЫ НАЧАТЬ?</div><h2>Учиться проще,<br>когда есть система.</h2><p>Войди в личный кабинет и начни с ближайшей темы.</p><a href="login.html" class="btn btn-white btn-lg">Открыть кабинет →</a></div><div class="math-decoration">π&nbsp;&nbsp; ∑ &nbsp;&nbsp; Δ &nbsp;&nbsp; √</div></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-row"><div><a class="logo footer-logo" href="index.html"><span class="logo-mark">E</span><span><b>Элеонора</b><small>PHYSICS & MATH</small></span></a><p>Персональная образовательная платформа по физике и математике.</p></div><div><b>Навигация</b><a href="index.html">Главная</a><a href="#subjects">Предметы</a><a href="dashboard.html">Кабинет</a></div><div><b>Ученику</b><a href="login.html">Войти</a><a href="dashboard.html">Прогресс</a></div></div><div class="container copyright">© 2026 Элеонора · Физика · Алгебра · Геометрия</div></footer>
+  <script src="js/auth.js"></script>
+</body>
+</html>
